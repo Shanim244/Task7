@@ -22,6 +22,9 @@
             int Taskid = int.Parse(Console.ReadLine());
             t.RemoveTask(Taskid);
 
+            //UndoRemoveTask
+            t.UndoRemove();
+
         }
     }
 }
